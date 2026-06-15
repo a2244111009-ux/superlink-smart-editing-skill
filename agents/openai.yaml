@@ -1,0 +1,9 @@
+interface:
+  display_name: "HyperFrames AI Video Workflow"
+  short_description: "Build speech-synced Douyin explainer videos with Codex and HyperFrames."
+  brand_color: "#75E8FF"
+  default_prompt: "Use $hyperframes-ai-video-workflow to turn my口播素材 into a storyboard, HyperFrames animation plan, and render QA checklist."
+
+policy:
+  allow_implicit_invocation: true
+

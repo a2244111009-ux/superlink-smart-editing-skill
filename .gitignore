@@ -1,0 +1,11 @@
+node_modules/
+.hyperframes/
+dist/
+renders/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.log
+*.tmp
+review-frames*/
