@@ -42,6 +42,30 @@ scope: subtitles + visual timeline events
 - "像 PPT": show flat page-flip or static cards first, then contrast with layered motion/problem panel.
 - "不是一键，是流程": show final process map, not a generic slogan.
 
+## Keyword Micro-Motion Rule
+
+Every important keyword needs a local visual response. The response should normally trigger +2 to +6 frames after the keyword begins.
+
+Do not write:
+
+```text
+highlight keyword
+animate card
+make it move
+```
+
+Write:
+
+```text
+keyword: 渲染
+trigger: keyword frame +4
+target: render preview card
+micro-motion: progress fill 0-65% over 40 frames; border scan 22 frames; completion pulse 10 frames
+settled state: card holds at 65% with 25% glow
+```
+
+Use `micro-motion.md` for the motion vocabulary and timing defaults.
+
 ## Motion Quality
 
 Prefer:
@@ -57,4 +81,3 @@ Avoid:
 - Generic cards unrelated to the sentence.
 - Animations that finish before the voice reaches the concept.
 - Empty frames where the main subject is missing.
-

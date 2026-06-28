@@ -30,6 +30,8 @@ Use this before telling the user a video is ready.
 
 6. **Motion**
    - Every important spoken keyword has a visual response.
+   - Every important keyword has a named micro-motion target, type, trigger frame, duration, and settled state.
+   - Keyword micro-motion starts after the keyword begins unless intentional anticipation is documented.
    - Motion points to the current information block.
    - Motion does not finish before the voice reaches the concept.
    - No repeated decorative bouncing.
@@ -53,9 +55,10 @@ opening hook
 every stage start
 every stage densest frame
 every transition
+every keyword-triggered micro-motion peak
+every micro-motion settled frame
 every user-flagged timestamp
 final summary frame
 ```
 
 If the user flags a section, extract the same timestamp set before and after revision so the difference is visible.
-
