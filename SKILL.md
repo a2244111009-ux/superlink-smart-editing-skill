@@ -1,6 +1,6 @@
 ---
 name: hyperframes-ai-video-workflow
-description: Make Chinese Douyin/TikTok-style AI explainer, practical experience, case-based, recommendation, and workflow videos from spoken audio, scripts, screenshots, product demos, real footage, HyperFrames, or Remotion. Use when the user asks to turn口播素材 into a polished video, choose the right visual form for a content type, write a video production rule, build a global control table, create a sentence-level storyboard, plan or implement HyperFrames or Remotion animation, sync subtitles and motion to voice, imitate reference video motion language, or QA a rendered short video.
+description: Make Chinese Douyin/TikTok-style AI explainer, practical experience, case-based, recommendation, legal, business-case, and workflow videos from a single question, spoken audio, scripts, screenshots, product demos, real footage, HyperFrames, Remotion, or local VoxCPM voice generation. Use when the user asks to turn口播素材 into a polished video, automatically create a one-question-to-video workflow, write scripts, generate cloned narration, choose the right visual form for a content type, write a video production rule, build a global control table, create a sentence-level storyboard, plan or implement HyperFrames or Remotion animation, sync subtitles and motion to voice, imitate reference video motion language, or QA a rendered short video.
 ---
 
 # HyperFrames AI Video Workflow
@@ -31,6 +31,8 @@ Before storyboarding, classify the script. Do not force every口播 into the sam
 If the first sample feels like a PPT, abstract lecture, or software demo for a story that should feel like a real case, stop and redesign the visual form before rendering more duration.
 
 ## Required Workflow
+
+If the user gives only one topic/question and wants a complete video, first read `references/one-question-autopilot.md`. If local narration or cloned voice is needed, also read `references/voxcpm-local-voice.md`.
 
 1. **Ingest**
    - Inputs may include口播音频, script, original video, reference videos, screenshots, product pages, or prior drafts.
@@ -122,3 +124,18 @@ frame QA contact sheets
 ```
 
 For a quick test, produce only the requested duration, then validate that section before expanding to the full video.
+
+## Detailed References And Assets
+
+- `references/storyboard-table.md`: sentence-level storyboard table format.
+- `references/motion-sync.md`: subtitle and motion timing rules.
+- `references/micro-motion.md`: keyword-triggered micro-motion vocabulary.
+- `references/qa-checklist.md`: render-frame QA checklist.
+- `references/remotion.md`: Remotion production rules.
+- `references/asset-and-style.md`: asset and visual style rules.
+- `references/business-case-mouthpiece.md`: Chinese real-business-case口播 workflow for service stories, compliance traps, licensing/account/control-right issues, and cases without screenshots, backend evidence, or chat logs.
+- `references/one-question-autopilot.md`: one-question-to-video workflow; Codex writes the script, generates narration, transcribes audio, builds storyboard, makes visuals, creates cover, exports MP4, and QA checks.
+- `references/voxcpm-local-voice.md`: local VoxCPM setup, cloned voice generation, style voice fallback, and failure handling.
+- `scripts/check_voxcpm.py`: checks whether local VoxCPM dependencies are available.
+- `scripts/voxcpm_synthesize.py`: generates narration with VoxCPM from text and optional user reference voice.
+- `assets/remotion-v5-template/`: V5 Remotion template assets for business-case videos. Reuse the layout, subtitle layer, safe zones, visual delay, and keyword-motion structure; replace the FDA content with the current industry topic.

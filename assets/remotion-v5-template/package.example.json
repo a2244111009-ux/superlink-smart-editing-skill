@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render src/index.ts SpaceXPremium ../../outputs/spacex-realfootage-v3/spacex-remotion-premium-v1.mp4 --codec=h264 --overwrite",
+    "still": "remotion still src/index.ts SpaceXPremium ../../outputs/spacex-realfootage-v3/frames/remotion-premium-v1.png --frame=264 --overwrite"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/media": "latest",
+    "remotion": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
