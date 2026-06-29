@@ -3,7 +3,11 @@ name: hyperframes-ai-video-workflow
 description: Make Chinese Douyin/TikTok-style AI explainer, practical experience, case-based, recommendation, legal, business-case, and workflow videos from a single question, spoken audio, scripts, screenshots, product demos, real footage, HyperFrames, Remotion, or local VoxCPM voice generation. Use when the user asks to turn口播素材 into a polished video, automatically create a one-question-to-video workflow, write scripts, generate cloned narration, choose the right visual form for a content type, write a video production rule, build a global control table, create a sentence-level storyboard, plan or implement HyperFrames or Remotion animation, sync subtitles and motion to voice, imitate reference video motion language, or QA a rendered short video.
 ---
 
-# HyperFrames AI Video Workflow
+# 超级链智能剪辑
+
+英文名称：**Superlink Smart Editing**
+
+Skill 标识：`hyperframes-ai-video-workflow`
 
 Use this skill for the user's Codex + HyperFrames/Remotion short-video production workflow. The goal is not to make "subtitles plus cards"; the goal is a speech-driven visual explanation system where every important spoken point has a matching visual action.
 

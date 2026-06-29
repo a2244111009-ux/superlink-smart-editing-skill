@@ -1,4 +1,8 @@
-# HyperFrames AI Video Workflow Skill
+# 超级链智能剪辑
+
+英文名称：**Superlink Smart Editing**
+
+原仓库/Skill 名称：`hyperframes-ai-video-workflow`
 
 这是一个给 Codex 用的中文短视频生产 Skill。
 

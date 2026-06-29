@@ -1,8 +1,8 @@
 interface:
-  display_name: "HyperFrames AI Video Workflow"
-  short_description: "Build speech-synced Douyin videos with content-fit visual strategy."
+  display_name: "超级链智能剪辑"
+  short_description: "用 Codex 自动生成口播文案、声音、分镜、画面、封面和可发布短视频。"
   brand_color: "#75E8FF"
-  default_prompt: "Use $hyperframes-ai-video-workflow to turn my口播素材 into a content-fit storyboard, animation plan, and render QA checklist."
+  default_prompt: "使用 $hyperframes-ai-video-workflow，把我的问题或口播素材自动做成中文短视频：写文案、生成声音、拆分镜、做画面动效、做封面并导出成片。"
 
 policy:
   allow_implicit_invocation: true
