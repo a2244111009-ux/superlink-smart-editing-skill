@@ -36,6 +36,8 @@ If the first sample feels like a PPT, abstract lecture, or software demo for a s
 
 ## Required Workflow
 
+If the user wants automated topic discovery, daily publishing, batch production, or says they only want to review final videos, first read `references/topic-engine.md`, then generate a ranked topic queue before writing scripts.
+
 If the user gives only one topic/question and wants a complete video, first read `references/one-question-autopilot.md`. If local narration or cloned voice is needed, also read `references/voxcpm-local-voice.md`.
 
 1. **Ingest**
@@ -137,6 +139,7 @@ For a quick test, produce only the requested duration, then validate that sectio
 - `references/qa-checklist.md`: render-frame QA checklist.
 - `references/remotion.md`: Remotion production rules.
 - `references/asset-and-style.md`: asset and visual style rules.
+- `references/topic-engine.md`: automated AI-topic discovery, scoring, queueing, and daily batch video production where the user only reviews final videos.
 - `references/business-case-mouthpiece.md`: Chinese real-business-case口播 workflow for service stories, compliance traps, licensing/account/control-right issues, and cases without screenshots, backend evidence, or chat logs.
 - `references/one-question-autopilot.md`: one-question-to-video workflow; Codex writes the script, generates narration, transcribes audio, builds storyboard, makes visuals, creates cover, exports MP4, and QA checks.
 - `references/voxcpm-local-voice.md`: local VoxCPM setup, cloned voice generation, style voice fallback, and failure handling.
